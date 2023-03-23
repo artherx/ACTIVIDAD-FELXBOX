@@ -17,6 +17,7 @@ section {
     border-radius: 10px;
     background-color: #fff;
     width: calc(33.33% - 20px);
+    height: min-content;
     border-radius: 5px;
 }
 
