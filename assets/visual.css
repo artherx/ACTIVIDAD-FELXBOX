@@ -4,15 +4,13 @@ body{
 section {
     padding: 20px;
 }
-  
+
 .cartas ul{
     list-style: none;
     display: flex;
 }
 
 .cartas li {
-    display: flex;
-    flex-direction: column;
     margin-right: 5px;
     border-radius: 10px;
     background-color: #fff;
