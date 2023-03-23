@@ -1,41 +1,58 @@
-body{
-    background-color: gray;
-
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
 }
+  
 .cartas ul{
-    display: flex;    
     list-style: none;
-}
-.cartas li{
     display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    margin: 5% 5% 5% 1%;
-    background-color: white;
-}
-#titulo{
-    padding: 10%;
-}
-#text{
-    padding: 10%;
-}
-#textoT{
-
-    padding: 20% 15%;
-}
-#boton{
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-}
-#boton button{
-    border-radius: 10px;
-    border-style: none;
-    background-color: orange;
-    width: 100%;
-}
-#imagen img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
 }
 
+.cartas li {
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: calc(33.33% - 20px);
+    border-radius: 5px;
+}
+
+
+#imagen img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#titulo {
+  text-align: left;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+#text {
+  text-align: justify;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+}
+
+#boton {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
